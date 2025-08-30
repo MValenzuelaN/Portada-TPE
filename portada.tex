@@ -1,0 +1,242 @@
+\UseRawInputEncoding
+\documentclass{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes} 
+
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{breakurl} 
+\usepackage{xurl}
+
+%\def\UrlBreaks{\do\/\do-}  % Permite cortes después de '/' y '-'
+
+
+\usepackage[style=apa, backend=biber]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\addbibresource{sample.bib}
+% Ejemplo cita: \parencite{apellido2020} (apellido2020 aparece en sample.bib en formato bibtex)
+
+
+\usepackage{microtype}%%%
+\setlength{\parindent}{0pt} % Sin sangría en el primer renglón
+\setlength{\parskip}{1em} % Espacio entre párrafos
+\usepackage{setspace}
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\setstretch{1.45}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{makecell}
+\usepackage{stix}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{environ}
+\usepackage{float}
+\usepackage{threeparttable}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{amsfonts}
+\usepackage{adjustbox}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{newtxtext}
+\usepackage{gensymb}
+\usepackage{ulem}
+\usepackage{tikz}
+\usetikzlibrary{shapes, positioning, cd, matrix, arrows, decorations.pathmorphing, intersections, decorations.markings, calc, babel, arrows.meta}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{changepage}  % Paquete para ajustar márgenes
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{pgfplots} % Para gráficos
+\pgfplotsset{compat=1.18}
+\usepackage{url}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdfborder={0 0 0}
+}
+\usepackage{afterpage}
+\usepackage{titlesec}
+\usepackage[scr=rsfs]{mathalpha} % invoke as \mathscr
+\usepackage{rotating}
+\usepackage{ulem,scalerel}
+\newcommand\bkl{\mathopen{\stretchrel*{\rotatebox{90}{\uwave{\rule{3ex}{0pt}}}}{Xy}}}
+\newcommand\bkr{\mathclose{\stretchrel*{\rotatebox{90}{\uwave{\rule{3ex}{0pt}}}}{Xy}}}
+
+\usepackage{eso-pic}
+
+
+\usepackage{varwidth} % para cajas de ancho variable
+
+\newcommand{\myunit}{0.8cm} % You can adjust the value, e.g., 0.8cm
+
+\tikzset{
+	node style sp/.style={draw,circle,minimum size=\myunit},
+	node style ge/.style={circle,minimum size=\myunit},
+	arrow style mul/.style={draw,sloped,midway,fill=white},
+	arrow style plus/.style={midway,sloped,fill=white},
+}
+
+\usepackage{minted}
+
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% 1) Paquetes y profundidades
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+\usepackage{titlesec}
+\setcounter{secnumdepth}{5}  % numerar hasta subparagraph
+\setcounter{tocdepth}{5}     % incluir en TOC hasta subparagraph
+
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% 2) Renombrar niveles nativos para subsubsub/subsubsubsub
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% Usamos \paragraph como \subsubsubsection...
+\let\subsubsubsection\paragraph
+% ...y \subparagraph como \subsubsubsubsection
+\let\subsubsubsubsection\subparagraph
+
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% 3) Numeración encadenada
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% Para \paragraph (ahora subsubsubsection)
+\renewcommand\theparagraph%
+  {\thesubsubsection.\arabic{paragraph}}
+% Para \subparagraph (ahora subsubsubsubsection)
+\renewcommand\thesubparagraph%
+  {\theparagraph.\arabic{subparagraph}}
+
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% 4) Formato y espaciado (ajusta a tu gusto)
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% subsubsubsection
+\titleformat{\paragraph}[hang]
+  {\normalfont\normalsize\bfseries}
+  {\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% subsubsubsubsection
+\titleformat{\subparagraph}[hang]
+  {\normalfont\normalsize\itshape}
+  {\thesubparagraph}{1em}{}
+\titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+% Ahora puedes usar:
+%   \section{…}
+%     \subsection{…}
+%       \subsubsection{…}
+%         \subsubsubsection{…}  % = \paragraph
+%           \subsubsubsubsection{…}  % = \subparagraph
+%––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
+
+\geometry{a4paper, margin=1in}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{booktabs}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\newcommand{\hwNumber}{\#[Number]}
+\newcommand{\hwTitle}{[Homework Title]}
+
+\definecolor{darkblue}{RGB}{0, 0, 139}
+
+
+\thispagestyle{empty}
+\pagenumbering{arabic}
+
+\usepackage{theorem}
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{definition}{Definición}[section]
+\newtheorem{proposition}{Proposición}[section]
+\newtheorem{proof}{Demostración}[section]
+\newtheorem{lemma}{Lema}[section]
+\newtheorem{example}{Ejemplo}[section]
+\newtheorem{remark}{Nota}[section]
+
+% Definiciones para símbolos de población
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\B}{\mathcal{B}}
+
+ % Fondo a página completa para la página actual
+\newcommand{\PortadaFondo}[1]{%
+	\AddToShipoutPictureBG*{%
+		\AtPageLowerLeft{%
+			\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{#1}%
+		}%
+	}%
+}
+
+\begin{document}
+\begin{titlepage}
+	\PortadaFondo{fondo.pdf} % <- tu archivo de fondo
+	\thispagestyle{empty}
+    \color{white}
+    \centering
+    
+    {\Large\textbf{MATÍAS AUGUSTO VALENZUELA NUCHE}}\\[2.5cm]
+    
+    {\Huge TEORÍA PURA de la ESTADÍSTICA}\\
+    % Añadir imagen aquí
+    \includegraphics[width=0.75\textwidth]{verum_negate.png}\\
+
+    
+    {\Large OBRA PRIMERA.}\\[1cm]
+    
+    {\Large Adaptada para establecer las características de esta ciencia formal,}\\
+    {\Large en contraposición a la llamada  «ciencia de los datos».}\\[1cm]
+    
+    {\LARGE TOMO PRIMERO DE LAS OBRAS.}\\[1cm]
+    
+    {\Large\textbf{LINARES,}}\\
+    {\Large \today.}\\[0.2cm]
+    
+    {\Large Sin permiso y privilegios de los Superiores.}
+    
+    \vfill
+    
+    % --- Franjas superior e inferior de Cruces de Santiago ---
+    \begin{tikzpicture}[remember picture, overlay]
+    	% Parámetros
+    	\def\iconsize{18pt}       % tamaño de cada cruz
+    	\def\yoffsetBottom{14pt}  % distancia desde el borde inferior
+    	\def\yoffsetTop{14pt}     % distancia desde el borde superior
+    	\def\N{15}                % cuántas cruces a lo ancho
+    	\pgfmathtruncatemacro{\Nm}{\N-1}
+    	
+    	\newcommand{\SantiagoIcon}{%
+    		\includegraphics[width=\iconsize]{cruz_santiago_azul.pdf}%
+    	}
+    	
+    	% --- Fila inferior (anclada al borde inferior)
+    	\foreach \i in {0,...,\Nm} {
+    		\node[anchor=south] at
+    		($(current page.south west)!{\i/(\Nm)}!(current page.south east) + (0,\yoffsetBottom)$)
+    		{\SantiagoIcon};
+    	}
+    	
+    	% --- Fila superior (anclada al borde superior)
+    	\foreach \i in {0,...,\Nm} {
+    		\node[anchor=north] at
+    		($(current page.north west)!{\i/(\Nm)}!(current page.north east) + (0,-\yoffsetTop)$)
+    		{\SantiagoIcon};
+    	}
+    \end{tikzpicture}
+    % --- Fin franjas ---
+    
+\end{titlepage}
+
+\end{document}
