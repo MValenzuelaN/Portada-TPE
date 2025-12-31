@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber portada"] 0 "portada.bcf" "portada.bbl" "portada" 1767165951.35284 0
+["biber portada"] 0 "portada.bcf" "portada.bbl" "portada" 1767166405.96607 0
   "portada.bcf" 0 -1 0 "pdflatex"
   "sample.bib" 0 -1 0 ""
   (generated)
   "portada.bbl"
   "portada.blg"
   (rewritten before read)
-["pdflatex"] 1767165938.83601 "c:/Users/elitebook hp/Documents/GitHub/Portada-TPE/portada.tex" "portada.pdf" "portada" 1767165951.3542 0
-  "c:/Users/elitebook hp/Documents/GitHub/Portada-TPE/portada.tex" 1767165937 9177 bf708d92a387a1e9de3edddba889d9cc ""
+["pdflatex"] 1767166395.30158 "c:/Users/elitebook hp/Documents/GitHub/Portada-TPE/portada.tex" "portada.pdf" "portada" 1767166405.96758 0
+  "c:/Users/elitebook hp/Documents/GitHub/Portada-TPE/portada.tex" 1767166393 9179 572340d2411e7691476ad6d523598945 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1751620660 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1751617604 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1751616712 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -311,11 +311,11 @@
   "c:/texlive/2025/texmf.cnf" 1751623918 713 e69b156964470283e0530f5060668171 ""
   "cruz_santiago_red.pdf" 1755832203 3521 360489786cd6ad78083c453ad6da9234 ""
   "fondo.pdf" 1767163930 304770 207fb2a000711e0df53b3e0ff2c535e3 ""
-  "portada.aux" 1767165948 625 67f531a860d957157b8d3f05ac8fbf2c "pdflatex"
+  "portada.aux" 1767166404 626 41b5626fb8eae25f36fda58e5dcfc162 "pdflatex"
   "portada.bbl" 1767164880 486 76d65a242ec496c9b4361af646ff12cb "biber portada"
-  "portada.out" 1767165943 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "portada.run.xml" 1767165948 2376 972b92d168c0438f550b53087a43ad43 "pdflatex"
-  "portada.tex" 1767165937 9177 bf708d92a387a1e9de3edddba889d9cc ""
+  "portada.out" 1767166400 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "portada.run.xml" 1767166404 2376 972b92d168c0438f550b53087a43ad43 "pdflatex"
+  "portada.tex" 1767166393 9179 572340d2411e7691476ad6d523598945 ""
   (generated)
   "portada.aux"
   "portada.bcf"
