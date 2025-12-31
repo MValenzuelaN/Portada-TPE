@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.4)  24 AUG 2025 01:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.4)  31 DEC 2025 04:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1897,6 +1897,18 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \minrowclearance=\skip100
 \rownum=\count513
 )
+(c:/texlive/2025/texmf-dist/tex/latex/contour/contour.sty
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+\con@length=\skip101
+
+Loading configuration file `contour.cfg'.
+(c:/texlive/2025/texmf-dist/tex/latex/contour/contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `pdftex.cnt'.
+(c:/texlive/2025/texmf-dist/tex/latex/contour/pdftex.cnt
+File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
 (c:/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
@@ -1989,7 +2001,7 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-Package hyperref Info: Option `colorlinks' set `true' on input line 69.
+Package hyperref Info: Option `colorlinks' set `true' on input line 71.
  (c:/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@output=\toks62
@@ -1999,8 +2011,8 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 (c:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box106
-\beforetitleunit=\skip101
-\aftertitleunit=\skip102
+\beforetitleunit=\skip102
+\aftertitleunit=\skip103
 \ttl@plus=\dimen361
 \ttl@minus=\dimen362
 \ttl@toksa=\toks63
@@ -2015,8 +2027,8 @@ Package: mathalpha 2025/01/17 - 1.145mathalpha (License LPPL) Michael Sharpe
 (c:/texlive/2025/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
 \c@r@tfl@t=\count520
-\rotFPtop=\skip103
-\rotFPbot=\skip104
+\rotFPtop=\skip104
+\rotFPbot=\skip105
 \rot@float@box=\box107
 \rot@mess@toks=\toks64
 )
@@ -2030,20 +2042,20 @@ Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count522
 \calc@Adimen=\dimen366
 \calc@Bdimen=\dimen367
-\calc@Askip=\skip105
-\calc@Bskip=\skip106
+\calc@Askip=\skip106
+\calc@Bskip=\skip107
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count523
-\calc@Cskip=\skip107
+\calc@Cskip=\skip108
 )
-\thesrwidth=\skip108
-\thesrheight=\skip109
-\srblobheight=\skip110
-\srblobdepth=\skip111
-\mnxsrwidth=\skip112
-\LMex=\skip113
-\LMpt=\skip114
+\thesrwidth=\skip109
+\thesrheight=\skip110
+\srblobheight=\skip111
+\srblobdepth=\skip112
+\mnxsrwidth=\skip113
+\LMex=\skip114
+\LMpt=\skip115
 )
 (c:/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -2109,7 +2121,7 @@ rning from the lineno package on input line 37.
 \c@FV@TrueTabCounter=\count538
 \FV@TabBox@Group=\box110
 \FV@bgcolorstructbox=\box111
-\FV@TmpLength=\skip115
+\FV@TmpLength=\skip116
 \c@FV@HighlightLinesStart=\count539
 \c@FV@HighlightLinesStop=\count540
 \FV@LoopCount=\count541
@@ -2149,28 +2161,28 @@ Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 (c:/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip116
-\f@nch@offset@elh=\skip117
-\f@nch@offset@erh=\skip118
-\f@nch@offset@olh=\skip119
-\f@nch@offset@orh=\skip120
-\f@nch@offset@elf=\skip121
-\f@nch@offset@erf=\skip122
-\f@nch@offset@olf=\skip123
-\f@nch@offset@orf=\skip124
-\f@nch@height=\skip125
-\f@nch@footalignment=\skip126
-\f@nch@widthL=\skip127
-\f@nch@widthC=\skip128
-\f@nch@widthR=\skip129
+\f@nch@headwidth=\skip117
+\f@nch@offset@elh=\skip118
+\f@nch@offset@erh=\skip119
+\f@nch@offset@olh=\skip120
+\f@nch@offset@orh=\skip121
+\f@nch@offset@elf=\skip122
+\f@nch@offset@erf=\skip123
+\f@nch@offset@olf=\skip124
+\f@nch@offset@orf=\skip125
+\f@nch@height=\skip126
+\f@nch@footalignment=\skip127
+\f@nch@widthL=\skip128
+\f@nch@widthC=\skip129
+\f@nch@widthR=\skip130
 \@temptokenb=\toks69
 )
 (c:/texlive/2025/texmf-dist/tex/latex/tools/theorem.sty
 Package: theorem 2024/08/06 v2.2c Theorem extension package (FMi)
 \theorem@style=\toks70
 \theorem@bodyfont=\toks71
-\theorempreskipamount=\skip130
-\theorempostskipamount=\skip131
+\theorempreskipamount=\skip131
+\theorempostskipamount=\skip132
 
 (c:/texlive/2025/texmf-dist/tex/latex/tools/thp.sty
 File: thp.sty 2024/08/06 v2.2c Theorem extension package (FMi)
@@ -2187,13 +2199,13 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 183.
+ 189.
 
 (c:/texlive/2025/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 183.
+(Font)              scaled to size 10.0pt on input line 189.
  (./portada.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -2202,41 +2214,41 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `portada.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 183.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 189.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-183.
+189.
 
 (c:/texlive/2025/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 189.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-183.
+189.
 
 (c:/texlive/2025/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 183.
-Package hyperref Info: Link coloring ON on input line 183.
+LaTeX Font Info:    ... okay on input line 189.
+Package hyperref Info: Link coloring ON on input line 189.
  (./portada.out)
 (./portada.out)
 \@outlinefile=\write6
@@ -2267,21 +2279,21 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'portada.bbl' found.
  (./portada.bbl)
-Package biblatex Info: Reference section=0 on input line 183.
-Package biblatex Info: Reference segment=0 on input line 183.
+Package biblatex Info: Reference section=0 on input line 189.
+Package biblatex Info: Reference segment=0 on input line 189.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen381
 \MT@vwid@rightmargin=\dimen382
-LaTeX Info: Redefining \microtypecontext on input line 183.
-Package microtype Info: Applying patch `item' on input line 183.
-Package microtype Info: Applying patch `toc' on input line 183.
-Package microtype Info: Applying patch `eqnum' on input line 183.
+LaTeX Info: Redefining \microtypecontext on input line 189.
+Package microtype Info: Applying patch `item' on input line 189.
+Package microtype Info: Applying patch `toc' on input line 189.
+Package microtype Info: Applying patch `eqnum' on input line 189.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 183.
+Package microtype Warning: Unable to apply patch `footnote' on input line 189.
 
-Package microtype Info: Applying patch `verbatim' on input line 183.
-LaTeX Info: Redefining \microtypesetup on input line 183.
+Package microtype Info: Applying patch `verbatim' on input line 189.
+LaTeX Info: Redefining \microtypesetup on input line 189.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2292,16 +2304,16 @@ Package microtype Info: Using default expansion set `alltext-nott'.
 LaTeX Warning: Command \showhyphens   has changed.
                Check if current package is valid.
 
-LaTeX Info: Redefining \showhyphens on input line 183.
+LaTeX Info: Redefining \showhyphens on input line 189.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Info: Redefining \sptext on input line 183.
-LaTeX Info: Redefining \. on input line 183.
-LaTeX Info: Redefining \% on input line 183.
+LaTeX Info: Redefining \sptext on input line 189.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2372,173 +2384,188 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 183.
-LaTeX Info: Command `\ddddot' is already robust on input line 183.
+LaTeX Info: Command `\dddot' is already robust on input line 189.
+LaTeX Info: Command `\ddddot' is already robust on input line 189.
 \c@mv@tabular=\count564
 \c@mv@boldtabular=\count565
 \symgns@font=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ntxtlf/m/n --> TS1/ntxtlf/b/n on input line 183.
-Package gensymb Info: Math companion symbols declared on input line 183.
-LaTeX Info: Redefining \degree on input line 183.
-LaTeX Info: Redefining \celsius on input line 183.
+(Font)                  TS1/ntxtlf/m/n --> TS1/ntxtlf/b/n on input line 189.
+Package gensymb Info: Math companion symbols declared on input line 189.
+LaTeX Info: Redefining \degree on input line 189.
+LaTeX Info: Redefining \celsius on input line 189.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 183.
-LaTeX Info: Redefining \ohm on input line 183.
-Package gensymb Info: Using \textohm for \ohm on input line 183.
-Package gensymb Info: Using \textmu for \micro on input line 183.
+erthousand on input line 189.
+LaTeX Info: Redefining \ohm on input line 189.
+Package gensymb Info: Using \textohm for \ohm on input line 189.
+Package gensymb Info: Using \textmu for \micro on input line 189.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 190.
+(Font)              scaled to size 17.28pt on input line 196.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 190.
+(Font)              scaled to size 17.28pt on input line 196.
+contour: Using 16 copies for `MATÍAS AUGUSTO VALENZUELA NUCHE' on input line 1
+96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 192.
-<verum_negate.png, id=7, 1284.8pt x 1284.8pt>
-File: verum_negate.png Graphic file (type png)
-<use verum_negate.png>
-Package pdftex.def Info: verum_negate.png  used on input line 194.
-(pdftex.def)             Requested size: 339.72592pt x 339.72542pt.
+(Font)              scaled to size 24.88pt on input line 198.
+contour: Using 16 copies for `TEORÍA PURA de la ESTADÍSTICA' on input line 19
+8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 202.
-<cruz_santiago_azul.pdf, id=9, 286.06876pt x 487.8225pt>
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 229.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
-File: cruz_santiago_azul.pdf Graphic file (type pdf)
-<use cruz_santiago_azul.pdf>
-Package pdftex.def Info: cruz_santiago_azul.pdf  used on input line 236.
-(pdftex.def)             Requested size: 18.0pt x 30.6898pt.
+(Font)              scaled to size 20.74pt on input line 203.
+contour: Using 16 copies for `OBRA PRIMERA.' on input line 203.
+contour: Using 16 copies for `Adaptada para establecer las características de 
+esta ciencia formal,' on input line 205.
+
+Overfull \hbox (2.75719pt too wide) in paragraph at lines 205--205
+ [][][][][][][][][][][][][][][][][][][][] 
+ []
+
+contour: Using 16 copies for `en contraposición a la llamada «ciencia de los 
+datos».' on input line 206.
+contour: Using 16 copies for `TOMO PRIMERO DE LAS OBRAS.' on input line 208.
+contour: Using 16 copies for `LINARES,' on input line 210.
+contour: Using 16 copies for `31\relax \unhbox \voidb@x \nobreak \ de diciembre
+\ de\relax \unhbox \voidb@x \nobreak \ 2025\relax .' on input line 211.
+contour: Using 16 copies for `Sin permiso y privilegios de los Superiores.' on 
+input line 213.
+<cruz_santiago_red.pdf, id=7, 214.52232pt x 366.22928pt>
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 235.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
+File: cruz_santiago_red.pdf Graphic file (type pdf)
+<use cruz_santiago_red.pdf>
+Package pdftex.def Info: cruz_santiago_red.pdf  used on input line 242.
+(pdftex.def)             Requested size: 18.0pt x 30.72392pt.
 
 
-<fondo.pdf, id=10, 856.19875pt x 1211.52625pt>
+<fondo.pdf, id=8, 597.23125pt x 845.1575pt>
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 240.
-(pdftex.def)             Requested size: 597.20552pt x 845.04933pt.
+Package pdftex.def Info: fondo.pdf  used on input line 246.
+(pdftex.def)             Requested size: 597.16599pt x 845.06516pt.
 [1
 
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
-texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./fondo.pdf> <./verum_negate.
-png> <./cruz_santiago_azul.pdf>]
-runsystem(latexminted cleantemp  --timestamp 20250824012317 A861DB299CD5979816D
+texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./fondo.pdf> <./cruz_santiago
+_red.pdf>]
+runsystem(latexminted cleantemp  --timestamp 20251231040902 A861DB299CD5979816D
 1CAD6F6BAAEB4)...executed.
 
  (./portada.aux
@@ -2557,19 +2584,19 @@ Package logreq Info: Writing requests to 'portada.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58726 strings out of 467887
- 1304322 string characters out of 5438220
- 2538619 words of memory out of 5000000
- 86390 multiletter control sequences out of 15000+600000
+ 58798 strings out of 467887
+ 1305557 string characters out of 5438220
+ 2567407 words of memory out of 5000000
+ 86453 multiletter control sequences out of 15000+600000
  642959 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,11n,117p,1184b,2903s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/202
 5/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on portada.pdf (1 page, 196541 bytes).
+Output written on portada.pdf (1 page, 377724 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 10268 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10263 words of extra memory for PDF output out of 12000 (max. 10000000)
 

@@ -56,16 +56,18 @@
 \usepackage{tabularx}
 \usepackage{xcolor}
 \usepackage[table]{xcolor}
+\usepackage{contour}
+\contourlength{0.6pt} % Grosor del contorno
 \usepackage{pgfplots} % Para gráficos
 \pgfplotsset{compat=1.18}
 \usepackage{url}
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=blue,
-    urlcolor=blue,
-    citecolor=blue,
-    pdfborder={0 0 0}
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=blue,
+	urlcolor=blue,
+	citecolor=blue,
+	pdfborder={0 0 0}
 }
 \usepackage{afterpage}
 \usepackage{titlesec}
@@ -111,24 +113,24 @@
 %––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
 % Para \paragraph (ahora subsubsubsection)
 \renewcommand\theparagraph%
-  {\thesubsubsection.\arabic{paragraph}}
+{\thesubsubsection.\arabic{paragraph}}
 % Para \subparagraph (ahora subsubsubsubsection)
 \renewcommand\thesubparagraph%
-  {\theparagraph.\arabic{subparagraph}}
+{\theparagraph.\arabic{subparagraph}}
 
 %––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
 % 4) Formato y espaciado (ajusta a tu gusto)
 %––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
 % subsubsubsection
 \titleformat{\paragraph}[hang]
-  {\normalfont\normalsize\bfseries}
-  {\theparagraph}{1em}{}
+{\normalfont\normalsize\bfseries}
+{\theparagraph}{1em}{}
 \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 % subsubsubsubsection
 \titleformat{\subparagraph}[hang]
-  {\normalfont\normalsize\itshape}
-  {\thesubparagraph}{1em}{}
+{\normalfont\normalsize\itshape}
+{\thesubparagraph}{1em}{}
 \titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 %––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––%
@@ -157,6 +159,10 @@
 \thispagestyle{empty}
 \pagenumbering{arabic}
 
+%\fancyhead[L]{\textbf{UCM}} 
+\fancyhead[C]{TPE}
+%\fancyhead[R]{\textbf{IES}}
+
 \usepackage{theorem}
 
 \newtheorem{theorem}{Teorema}[section]
@@ -171,7 +177,7 @@
 \newcommand{\F}{\mathcal{F}}
 \newcommand{\B}{\mathcal{B}}
 
- % Fondo a página completa para la página actual
+% Fondo a página completa para la página actual
 \newcommand{\PortadaFondo}[1]{%
 	\AddToShipoutPictureBG*{%
 		\AtPageLowerLeft{%
@@ -181,62 +187,62 @@
 }
 
 \begin{document}
-\begin{titlepage}
-	\PortadaFondo{fondo.pdf} % <- tu archivo de fondo
-	\thispagestyle{empty}
-    \color{white}
-    \centering
-    
-    {\Large\textbf{MATÍAS AUGUSTO VALENZUELA NUCHE}}\\[2.5cm]
-    
-    {\Huge TEORÍA PURA de la ESTADÍSTICA}\\
-    % Añadir imagen aquí
-    \includegraphics[width=0.75\textwidth]{verum_negate.png}\\
-
-    
-    {\Large OBRA PRIMERA.}\\[1cm]
-    
-    {\Large Adaptada para establecer las características de esta ciencia formal,}\\
-    {\Large en contraposición a la llamada  «ciencia de los datos».}\\[1cm]
-    
-    {\LARGE TOMO PRIMERO DE LAS OBRAS.}\\[1cm]
-    
-    {\Large\textbf{LINARES,}}\\
-    {\Large \today.}\\[0.2cm]
-    
-    {\Large Sin permiso y privilegios de los Superiores.}
-    
-    \vfill
-    
-    % --- Franjas superior e inferior de Cruces de Santiago ---
-    \begin{tikzpicture}[remember picture, overlay]
-    	% Parámetros
-    	\def\iconsize{18pt}       % tamaño de cada cruz
-    	\def\yoffsetBottom{14pt}  % distancia desde el borde inferior
-    	\def\yoffsetTop{14pt}     % distancia desde el borde superior
-    	\def\N{15}                % cuántas cruces a lo ancho
-    	\pgfmathtruncatemacro{\Nm}{\N-1}
-    	
-    	\newcommand{\SantiagoIcon}{%
-    		\includegraphics[width=\iconsize]{cruz_santiago_azul.pdf}%
-    	}
-    	
-    	% --- Fila inferior (anclada al borde inferior)
-    	\foreach \i in {0,...,\Nm} {
-    		\node[anchor=south] at
-    		($(current page.south west)!{\i/(\Nm)}!(current page.south east) + (0,\yoffsetBottom)$)
-    		{\SantiagoIcon};
-    	}
-    	
-    	% --- Fila superior (anclada al borde superior)
-    	\foreach \i in {0,...,\Nm} {
-    		\node[anchor=north] at
-    		($(current page.north west)!{\i/(\Nm)}!(current page.north east) + (0,-\yoffsetTop)$)
-    		{\SantiagoIcon};
-    	}
-    \end{tikzpicture}
-    % --- Fin franjas ---
-    
-\end{titlepage}
-
+	\begin{titlepage}
+		\PortadaFondo{fondo.pdf} % <- tu archivo de fondo
+		\thispagestyle{empty}
+		\color{white}
+		\centering
+		
+		{\LARGE\textbf{\contour{black}{MATÍAS AUGUSTO VALENZUELA NUCHE}}}\\[2.3cm]
+		
+		{\Huge \contour{black}{TEORÍA PURA de la ESTADÍSTICA}}\\[11.5cm]
+		% Añadir imagen aquí
+		%\includegraphics[width=0.75\textwidth]{verum_negate.png}\\
+		
+		
+		{\huge \contour{black}{OBRA PRIMERA.}}\\[1cm]
+		
+		{\LARGE \contour{black}{Adaptada para establecer las características de esta ciencia formal,}}\\
+		{\LARGE \contour{black}{en contraposición a la llamada  «ciencia de los datos».}}\\[1cm]
+		
+		{\huge \contour{black}{TOMO PRIMERO DE LAS OBRAS.}}\\[1cm]
+		
+		{\LARGE\textbf{\contour{black}{LINARES,}}}\\
+		{\LARGE \contour{black}{\today.}}\\[1cm]
+		
+		{\LARGE \contour{black}{Sin permiso y privilegios de los Superiores.}}
+		
+		\vfill
+		
+		% --- Franjas superior e inferior de Cruces de Santiago ---
+		\begin{tikzpicture}[remember picture, overlay]
+			% Parámetros
+			\def\iconsize{18pt}       % tamaño de cada cruz
+			\def\yoffsetBottom{14pt}  % distancia desde el borde inferior
+			\def\yoffsetTop{14pt}     % distancia desde el borde superior
+			\def\N{15}                % cuántas cruces a lo ancho
+			\pgfmathtruncatemacro{\Nm}{\N-1}
+			
+			\newcommand{\SantiagoIcon}{%
+				\includegraphics[width=\iconsize]{cruz_santiago_red.pdf}%
+			}
+			
+			% --- Fila inferior (anclada al borde inferior)
+			\foreach \i in {0,...,\Nm} {
+				\node[anchor=south] at
+				($(current page.south west)!{\i/(\Nm)}!(current page.south east) + (0,\yoffsetBottom)$)
+				{\SantiagoIcon};
+			}
+			
+			% --- Fila superior (anclada al borde superior)
+			\foreach \i in {0,...,\Nm} {
+				\node[anchor=north] at
+				($(current page.north west)!{\i/(\Nm)}!(current page.north east) + (0,-\yoffsetTop)$)
+				{\SantiagoIcon};
+			}
+		\end{tikzpicture}
+		% --- Fin franjas ---
+		
+	\end{titlepage}
+	
 \end{document}
