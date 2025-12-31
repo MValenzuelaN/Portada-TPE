@@ -57,7 +57,8 @@
 \usepackage{xcolor}
 \usepackage[table]{xcolor}
 \usepackage{contour}
-\contourlength{0.6pt} % Grosor del contorno
+\contourlength{0.8pt} % Grosor del contorno base
+\newcommand{\contourthick}[1]{\contour[64]{black}{#1}} % Contorno más grueso para subtítulos
 \usepackage{pgfplots} % Para gráficos
 \pgfplotsset{compat=1.18}
 \usepackage{url}
@@ -193,24 +194,26 @@
 		\color{white}
 		\centering
 		
+		\vspace*{0.2cm} % Espacio superior para separar del borde
+
 		{\LARGE\textbf{\contour{black}{MATÍAS AUGUSTO VALENZUELA NUCHE}}}\\[2.3cm]
 		
-		{\Huge \contour{black}{TEORÍA PURA de la ESTADÍSTICA}}\\[11.5cm]
+		{\fontsize{30pt}{36pt}\selectfont\bfseries \contour{black}{TEORÍA PURA de la ESTADÍSTICA}}\\[10cm]
 		% Añadir imagen aquí
 		%\includegraphics[width=0.75\textwidth]{verum_negate.png}\\
 		
 		
-		{\huge \contour{black}{OBRA PRIMERA.}}\\[1cm]
+		{\huge \contour{black}{OBRA PRIMERA}}\\[1cm]
 		
-		{\LARGE \contour{black}{Adaptada para establecer las características de esta ciencia formal,}}\\
-		{\LARGE \contour{black}{en contraposición a la llamada  «ciencia de los datos».}}\\[1cm]
+		{\LARGE \contourthick{Adaptada para establecer las características de esta ciencia formal,}}\\
+		{\LARGE \contourthick{en contraposición a la llamada  «ciencia de los datos».}}\\[1cm]
 		
-		{\huge \contour{black}{TOMO PRIMERO DE LAS OBRAS.}}\\[1cm]
+		{\huge \contour{black}{TOMO PRIMERO DE LAS OBRAS}}\\[1cm]
 		
 		{\LARGE\textbf{\contour{black}{LINARES,}}}\\
-		{\LARGE \contour{black}{\today.}}\\[1cm]
+		{\LARGE \contour{black}{\today}}\\[1cm]
 		
-		{\LARGE \contour{black}{Sin permiso y privilegios de los Superiores.}}
+		{\LARGE \contour{black}{Sin permiso y privilegios de los Superiores}}
 		
 		\vfill
 		
